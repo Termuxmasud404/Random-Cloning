@@ -84,7 +84,7 @@ def clear():
 def back():
 	login()
 
-XYEHAN="MASUD"
+MASUD="MASUD"
 imt="-Busra4786=="
 ak="MIM"
 myid=uuid.uuid4().hex[:10].upper()
@@ -422,15 +422,15 @@ class Main:
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
 		XYEHAN =input(" Choose : ")
-		if XYEHAN in ["1", "01"]:
+		if MASUD in ["1", "01"]:
 			File()
-		if XYEHAN in ["2", "02"]:
+		if MASUD in ["2", "02"]:
 			Public()
-		if XYEHAN in ["3", "03"]:
+		if MASUD in ["3", "03"]:
 			os.system("python Dump.py")
-		if XYEHAN in ["4", "04"]:
+		if MASUD in ["4", "04"]:
 			self.old()
-		if XYEHAN in ["5", "05"]:
+		if MASUD in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
