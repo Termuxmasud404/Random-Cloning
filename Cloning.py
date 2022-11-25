@@ -421,7 +421,7 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		XYEHAN =input(" Choose : ")
+		MASUD =input(" Choose : ")
 		if MASUD in ["1", "01"]:
 			File()
 		if MASUD in ["2", "02"]:
